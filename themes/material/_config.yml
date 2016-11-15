@@ -7,7 +7,7 @@ head:
     favicon: "/img/favicon.png"
     high_res_favicon: "/img/favicon.png"
     apple_touch_icon: "/img/favicon.png"
-    keywords: java,javascript,js,web,react,redux,extjs,jquery,maven,mysql,keep it simple,lise,svn,git,saga,antd,vue,angular
+    keywords: java,javascript,js,web,react,redux,extjs,jquery,maven,mysql,keep it simple,lise,svn,git,saga,antd,vue,angular,lise,lise.io
 
 # Jump Links Settings
 url:
