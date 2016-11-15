@@ -21,7 +21,7 @@ mkdir actions/counter reducers/counter stores/counter components/counter views/c
 touch constants/Counter.js actions/counter/index.js reducers/counter/index.js stores/counter/index.js components/counter/index.js components/counter/redux.js components/counter/index.less  components/counter/demo.js views/counter/index.hbs
 ```
 
-创建 *Counter* 的 Redux 和 React 组件的过程就相当于重复了一下之前两篇文章的过程，代码也不复杂，我这边也就不粘贴了。可自行参考代码，代码托管在 https://github.com/boycgit/demos/tree/master/traffic；
+创建 *Counter* 的 Redux 和 React 组件的过程就相当于重复了一下之前两篇文章的过程，代码也不复杂，我这边也就不粘贴了。可自行参考代码，代码托管在 https://github.com/boycgit/demos/tree/master/traffic 
 
 可以通过 http://localhost:3000/counter/redux 检验是否正常运行；
 
