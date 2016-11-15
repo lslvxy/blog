@@ -1,8 +1,9 @@
 title: React + Redux 入坑指南
-date: 2016-08-8 09:30
+date: 2016-08-08 09:30
 comments: on
 category: Web
 tags: [React,Redux,Web]
+id: 201608080930
 ---
 
 React + Redux 基本入坑配置

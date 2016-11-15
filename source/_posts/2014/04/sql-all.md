@@ -3,6 +3,7 @@ category: Database
 comments: on
 date: 2014-04-21 12:30
 tags: [sql,statement]
+id: 201404211230
 ---
 常见的sql语句集合
 

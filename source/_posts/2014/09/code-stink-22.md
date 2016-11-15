@@ -3,6 +3,7 @@ date: 2014-09-30 15:00
 comments: on
 category: Other
 tags: [code,代码]
+id: 201409300930
 ---
 22 种代码的坏味道
 <!-- more -->

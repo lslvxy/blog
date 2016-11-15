@@ -2,7 +2,8 @@ title: ExtJs4 中的MVC应用架构
 date: 2013-10-29 20:30
 category: ExtJs
 comments: on
-Tags : [extJs4, MVC]
+tags: [extJs4, MVC]
+id: 201310290930
 ---
 
 ### 一、ExtJs 4.x MVC模式的原理与作用

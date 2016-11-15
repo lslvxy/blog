@@ -3,6 +3,7 @@ date: 2014-02-25 17:30
 comments: on
 category: ExtJs
 tags: [extjs,tree,树,checkbox]
+id: 201402250930
 ---
 
 在对树节点进行操作后往往需要进行reload操作刷新一下树，但是很多业务都需要在树形刷新后默认选中最后一次选中的节点。这样就必须先保存前一次选中节点的信息，在reload之后再次通过节点的信息进行expand逐层展开到这个节点上。

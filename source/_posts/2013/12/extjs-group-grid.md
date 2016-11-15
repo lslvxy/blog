@@ -1,8 +1,9 @@
 title: ExtJs中gridpanel分组后组名排序
-date: 2013-12-02 11:46
+date: 2013-12-02 12:00
 comments: on
 category: ExtJs
 tags: [extjs, grid,分组,排序]
+id: 2013012021200
 ---
 
 ExtJs中对gridpanel分组后的组名进行排序，GroupingGrid分组后是不能对组名再进行排序的，本文介绍了相关方法。

@@ -3,6 +3,7 @@ date: 2013-12-04 10:46
 comments: on
 category: DataBase
 tags: [oracle,日期,to_date]
+id: 201312041030
 ---
 
 Oracle中TO_DATE的用法，包括时间格式化以及常用的时间相关函数和方法。

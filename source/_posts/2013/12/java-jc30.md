@@ -3,6 +3,7 @@ date: 2013-12-03 16:46
 comments: on
 category: Java
 tags: [java,基础,规范]
+id: 201312030930
 ---
 
 JAVA基础：JAVA代码编写的30条建议，一些规范和默认的代码规则。

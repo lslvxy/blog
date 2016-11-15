@@ -1,0 +1,37 @@
+
+<style>
+.qr_code_pc_outer {
+    display: block !important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 30px;
+    color: #717375;
+    text-align: center;
+}
+.qr_code_pc_inner {
+    position: relative;
+    width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.qr_code_pc {
+    position: absolute;
+    right: -300px;
+    top: 0;
+    padding: 16px;
+    border: 1px solid #d9dadc;
+    background-color: #fff;
+}
+.qr_code_pc_img{
+  width:100px;
+}
+</style>
+<div id="js_pc_qr_code" class="qr_code_pc_outer" style="display: block;">
+  <div class="qr_code_pc_inner">
+      <div class="qr_code_pc">
+          <img src="http://lise-blog.oss-cn-shanghai.aliyuncs.com/qrcode.jpg" id="js_pc_qr_code_img" class="qr_code_pc_img">
+          <p>微信扫一扫<br>关注订阅号</p>
+      </div>
+  </div>
+</div>

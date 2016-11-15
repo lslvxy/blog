@@ -1,8 +1,9 @@
 title: Redux教程1：环境搭建，初写Redux
-date: 2016-11-10 09:30
+date: 2016-11-13 09:30
 comments: on
 category: Web
 tags: [React,Redux,Web]
+id: 201611130930
 ---
 
 

@@ -3,6 +3,7 @@ date: 2014-04-08 12:00
 comments: on
 category: Other
 tags: [Liquid,语法]
+id: 201404080930
 ---
 Liquid基础语法。
 <!-- more -->

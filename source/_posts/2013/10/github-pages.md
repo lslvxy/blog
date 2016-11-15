@@ -3,6 +3,7 @@ date: 2013-10-30 13:30
 comments: on
 category: Other
 tags: [git,github,github pages]
+id: 201310300930
 ---
 
 我写这篇文章的目的是记录本博客的搭建过程，自己从零开始逐步搭建起来了GitHub Pages，其中借鉴了很多的博客和模版，稍后会在后面列出，也为没有用过gihub和jekyll的童鞋提供一点帮助。

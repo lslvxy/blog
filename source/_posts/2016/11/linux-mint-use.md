@@ -3,6 +3,7 @@ date: 2016-11-11 09:30
 comments: on
 category: Linux
 tags: [Linux,Ubuntu]
+id: 201611110930
 ---
 
 搜集了日常工作中linuxmint的使用的命令备份和遇到的问题以及解决办法.(持续更新中)
@@ -68,7 +69,7 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 
 ```js
 //apt 安装
-sudo apt intall git subversion wget zsh wiznote node hexo-cli guake atom rar unrar p7zip-full gshutdown 
+sudo apt intall git subversion wget zsh wiznote node hexo-cli guake atom rar unrar p7zip-full gshutdown
 
 //需要下载deb安装的软件：
 brackets，mysql，jd-gui，filezilla, smartsvn, smartgit,smartsynchronize,

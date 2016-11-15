@@ -3,6 +3,7 @@ date: 2016-05-18 09:30
 comments: on
 category: Web
 tags: [JavaScript,web,技巧]
+id: 201605180930
 ---
 
 在这篇文章中将给大家分享12个有关于JavaScript的小技巧。这些小技巧可能在你的实际工作中或许能帮助你解决一些问题。

@@ -3,6 +3,7 @@ date: 2014-04-04 12:00
 comments: on
 category: ExtJs
 tags: [extjs,store,reader,writer]
+id: 201404040930
 ---
 
 ExtJs4中的Store是最常用的组件了，本文对store以及reader和writer做了详细的说明。

@@ -3,6 +3,7 @@ date: 2014-04-04 17:00
 comments: on
 category: ExtJs
 tags: [extjs,extjs4,tree,树]
+id: 201404041730
 ---
 
 `TreePanel`是ExtJS中最多能的组件之一，它非常适合用于展示分层的数据。`TreePanel`和`GridPanel`继承自相同的基类，所以所有从`GridPanel`能获得到的特性、扩展、插件等带来的好处，在`TreePanel`中也同样可以获得。列、列宽调整、拖拽、渲染器、排序、过滤等特性，在两种组件中都是差不多的工作方式。
