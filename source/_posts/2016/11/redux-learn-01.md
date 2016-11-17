@@ -43,9 +43,7 @@ id: 201611130930
 
 ```js
 mkdir actions constants components layouts reducers stores tests views
-
 touch server.js index.js webpack.config.js
-
 ```
 
 这些文件夹结构也是借鉴自官网redux的todos示例；
@@ -54,11 +52,8 @@ touch server.js index.js webpack.config.js
 
 ```js
 npm init
-
 npm install --save koa koa-handlebars koa-router react react-dom react-redux classnames
-
 npm install --save-dev webpack webpack-dev-server webpack-hot-middleware babel-core babel-loader babel-plugin-react-transform style-loader less-loader css-loader extract-text-webpack-plugin babel-preset-es2015 babel-preset-react
-
 ```
 
 
@@ -68,10 +63,10 @@ npm install --save-dev webpack webpack-dev-server webpack-hot-middleware babel-c
 
 ### 2.2、配置开发环境
 
-这里需要启用两个服务器，一个是webpack服务器，专门用于转换代码；另外一个是web应用服务器，响应客户端的请求；
+这里需要启用两个服务器，一个是webpack服务器，专门用于转换代码；另外一个是web应用服务器，响应客户端的请求
 
 
-```java
+```js
 var path = require('path');
 var fs = require('fs');
 var webpack = require('webpack');
