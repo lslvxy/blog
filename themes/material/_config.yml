@@ -65,10 +65,10 @@ img:
     logo: "http://img.lise.io/blog/logo2.png"
     avatar: "http://img.lise.io/blog/avatar.png"
     daily_pic: "https://api.i-meto.com/bing?new&blur"
-    sidebar_header: "/img/sidebar_header.png"
-    footerico: "/img/footer/footer_ico-"
+    sidebar_header: "/imgs/sidebar_header.png"
+    footerico: "/imgs/footer/footer_ico-"
     #upyun_logo: "/img/upyun_logo.png"
-    random_thumbnail: "/img/random/"
+    random_thumbnail: "/imgs/random/"
 
 # Custom Fonts
 fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
