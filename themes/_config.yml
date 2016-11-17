@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "http://img.lise.io/blog/favicon.png"
-    high_res_favicon: "http://img.lise.io/blog/favicon.png"
-    apple_touch_icon: "http://img.lise.io/blog/favicon.png"
+    favicon: "/img/favicon.png"
+    high_res_favicon: "/img/favicon.png"
+    apple_touch_icon: "/img/favicon.png"
     keywords: java,javascript,js,web,react,redux,extjs,jquery,maven,mysql,keep it simple,lise,svn,git,saga,antd,vue,angular,lise,lise.io
 
 # Jump Links Settings
@@ -62,8 +62,8 @@ background:
 
 # Images Settings
 img:
-    logo: "http://img.lise.io/blog/logo2.png"
-    avatar: "http://img.lise.io/blog/avatar.png"
+    logo: "/img/logo2.png.png"
+    avatar: "/img/avatar.png"
     daily_pic: "https://api.i-meto.com/bing?new&blur"
     sidebar_header: "/img/sidebar_header.png"
     footerico: "/img/footer/footer_ico-"
