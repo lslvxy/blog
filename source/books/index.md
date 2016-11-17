@@ -17,6 +17,6 @@ id: books
 
 [Lodash 官方文档](https://lodash.com/docs/)
 
-[]()
+[前端工程师手册](https://leohxj.gitbooks.io/front-end-database/content)
 
 **欢迎留言推荐各种书籍**
