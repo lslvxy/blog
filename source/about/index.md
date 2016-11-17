@@ -15,6 +15,6 @@ id: about
 ```
 Keep It Simple:
     link: http://lise.io
-    avatar: http://lise.io/img/avatar.png
+    avatar: http://img.lise.io/blog/avatar.png
     descr: 简单自我,充实生命.
 ```
