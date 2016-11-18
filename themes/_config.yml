@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "/img/favicon.png"
-    high_res_favicon: "/img/favicon.png"
-    apple_touch_icon: "/img/favicon.png"
+    favicon: "http://img.lise.io/blog/favicon.png"
+    high_res_favicon: "http://img.lise.io/blog/favicon.png"
+    apple_touch_icon: "http://img.lise.io/blog/favicon.png"
     keywords: java,javascript,js,web,react,redux,extjs,jquery,maven,mysql,keep it simple,lise,svn,git,saga,antd,vue,angular,lise,lise.io
 
 # Jump Links Settings
@@ -27,11 +27,11 @@ scheme: Paradox
 # UI & UX: slogan, color, effect
 uiux:
     slogan: "简单自我,充实生命."
-    theme_color: "#039BE5"
-    theme_sub_color: "#00BCD4"
-    hyperlink_color: "#039BE5"
+    theme_color: "#0097A7"
+    theme_sub_color: "#00838F"
+    hyperlink_color: "#00838F"
     button_color: "#757575"
-    android_chrome_color: "#039BE5"
+    android_chrome_color: "#0097A7"
     nprogress_color: "#FF4081"
     nprogress_buffer: "800"
 
@@ -53,22 +53,26 @@ thumbnail:
     random_amount: 5
 
 # Background Settings
+# bing available parameter:
+#     new | color= | type=
+#         color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
+#         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#F5F5F5"
     #bgimg: "/img/bg.png"
-    bing: 
+    bing:
         enable: false
-        parameter: 
+        parameter:
 
 # Images Settings
 img:
-    logo: "/img/logo2.png.png"
-    avatar: "/img/avatar.png"
+    logo: "http://img.lise.io/blog/logo2.png"
+    avatar: "http://img.lise.io/blog/avatar.png"
     daily_pic: "https://api.i-meto.com/bing?new&blur"
-    sidebar_header: "/img/sidebar_header.png"
-    footerico: "/img/footer/footer_ico-"
+    sidebar_header: "/imgs/sidebar_header.png"
+    footerico: "/imgs/footer/footer_ico-"
     #upyun_logo: "/img/upyun_logo.png"
-    random_thumbnail: "/img/random/"
+    random_thumbnail: "/imgs/random/"
 
 # Custom Fonts
 fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
@@ -99,6 +103,7 @@ pages:
     关于我: "/about"
     标签云: "/tags"
     友情链接: "/links"
+    书籍收藏: "/books"
 
 
 
@@ -112,6 +117,7 @@ pages:
 comment:
     use: duoshuo
     shortname: lise
+    duoshuo_thread_key: id
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
 # Search Systems

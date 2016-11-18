@@ -27,11 +27,11 @@ scheme: Paradox
 # UI & UX: slogan, color, effect
 uiux:
     slogan: "简单自我,充实生命."
-    theme_color: "#039BE5"
-    theme_sub_color: "#00BCD4"
-    hyperlink_color: "#039BE5"
+    theme_color: "#0097A7"
+    theme_sub_color: "#00838F"
+    hyperlink_color: "#00838F"
     button_color: "#757575"
-    android_chrome_color: "#039BE5"
+    android_chrome_color: "#0097A7"
     nprogress_color: "#FF4081"
     nprogress_buffer: "800"
 
@@ -53,6 +53,10 @@ thumbnail:
     random_amount: 5
 
 # Background Settings
+# bing available parameter:
+#     new | color= | type=
+#         color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
+#         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#F5F5F5"
     #bgimg: "/img/bg.png"
@@ -113,6 +117,7 @@ pages:
 comment:
     use: duoshuo
     shortname: lise
+    duoshuo_thread_key: id
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
 # Search Systems
