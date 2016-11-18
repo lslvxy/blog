@@ -58,6 +58,12 @@ http://nginx.org/keys/nginx_signing.key
 //然后
 sudo apt-key add nginx_signing.key
 
+//firefox stable
+sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa
+
+//firefox beta
+sudo add-apt-repository ppa:mozillateam/firefox-next
+
 ```
 
 ## Oh-My-Zsh
