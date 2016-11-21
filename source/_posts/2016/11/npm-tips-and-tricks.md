@@ -1,7 +1,7 @@
 title: 提升你的开发效率，10 个 NPM 使用技巧
 date: 2016-11-21 09:30
 comments: on
-category: Linux
+category: Web
 tags: [Web,npm,npmjs]
 id: 201611210930
 description: 对于一个项目，常用的一些npm简单命令包含的功能有：初始化一个文件夹( npm init )，下载npm模块( npm install )，创建测试( npm test ) 和自定义脚本( npm run )。但是，进一步了解一些 npm 的使用技巧可以彻底改变你的日常开发任务。
