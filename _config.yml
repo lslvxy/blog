@@ -42,7 +42,9 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-
+    
+marked:
+  gfm: false
 # Category & Tag
 default_category: uncategorized
 category_map:
