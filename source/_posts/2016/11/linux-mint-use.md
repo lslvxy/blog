@@ -96,14 +96,12 @@ brackets，mysql，jd-gui，filezilla, smartsvn, smartgit,smartsynchronize,DBeav
 将
 ```sh
 #!/bin/sh
-
 exec /opt/sublime_text/sublime_text "$@"
 ```
 
 修改为
 ```sh
 #!/bin/sh
-
 LD_PRELOAD=/opt/sublime_text/libsublime-imfix.so exec /opt/sublime_text/sublime_text "$@"
 ```
 
@@ -147,6 +145,6 @@ LD_PRELOAD=/opt/sublime_text/libsublime-imfix.so exec /opt/sublime_text/sublime_
 
 `opt/sublime_text/`目录下的`sublime-text.desktop`可以修改，也可不修改。
 
-附上已经修改过的`sublime-text.desktop`文件,[点击此处下载](http://lise-blog.oss-cn-shanghai.aliyuncs.com/libsublime-imfix.so)
+附上已经修改过的`sublime-text.desktop`文件,[点击此处下载](http://lise-blog.oss-cn-shanghai.aliyuncs.com/sublime_text.desktop)
 
 运行命令`sudo mv sublime-text.desktop /usr/share/applications/`即可替换desktop文件.
