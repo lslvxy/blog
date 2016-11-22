@@ -39,31 +39,23 @@ Host 192.168.1.72
 ```js
 //git
 sudo add-apt-repository ppa:git-core/ppa
-
 //atom
 sudo add-apt-repository ppa:webupd8team/atom
-
 //wiz
 sudo add-apt-repository ppa:wiznote-team
-
 //nodev7
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
-
 //nodev6
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-
 //nginx  --stable
 //下载此key文件
 http://nginx.org/keys/nginx_signing.key
 //然后
 sudo apt-key add nginx_signing.key
-
 //firefox stable
 sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa
-
 //firefox beta
 sudo add-apt-repository ppa:mozillateam/firefox-next
-
 ```
 
 ## Oh-My-Zsh
@@ -76,10 +68,8 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 ```js
 //apt 安装
 sudo apt intall git subversion wget zsh wiznote node hexo-cli guake atom rar unrar p7zip-full gshutdown
-
 //需要下载deb安装的软件：
 brackets，mysql，jd-gui，filezilla, smartsvn, smartgit,smartsynchronize,DBeaver
-
 ```
 
 ## Sublime Text 3输入中文办法
