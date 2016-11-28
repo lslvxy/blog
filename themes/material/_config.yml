@@ -114,12 +114,14 @@ pages:
 
 # Comment Systems
 # Available value:
-#     duoshuo | disqus
+#     duoshuo | disqus |changyan
 comment:
     use: duoshuo
     shortname: lise
     duoshuo_thread_key: id
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
+    appid: 'cysI5lzGD'
+    conf: 'prod_1fe1e46ed151718b6319077cd96d24dd'    
 
 # Search Systems
 # Available value:
