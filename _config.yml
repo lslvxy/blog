@@ -69,11 +69,21 @@ theme: material
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# deploy:
+#   type: git
+#   repo: git@github.com:lslvxy/lslvxy.github.com.git
+#   branch: master
+#   message: update
 deploy:
-  type: git
-  repo: git@github.com:lslvxy/lslvxy.github.com.git
-  branch: master
-  message: update
+  type: ftpsync
+  host: hz213460.ftp.aliapp.com
+  user: hz213460
+  pass: shansmart5526
+  remote: /htdocs
+  port: 22
+  ignore: 
+  connections: 1
+  verbose: true
 
 feed:
   type: atom

@@ -16,22 +16,13 @@ id: 201611110930
 在客户端~/.ssh/config文件(没有则新建)添加配置`ServerAliveInterval 30`
 
 ```
-
-
 Host github.com
-
      IdentityFile ~/.ssh/id_rsa_github
-
 Host git.oschina.net
-
      IdentityFile ~/.ssh/id_rsa_gitosc
-
 Host 192.168.1.72
-
      IdentityFile ~/.ssh/id_rsa_deploy
-
  ServerAliveInterval 30
-
 ```
 
 ## 常用软件源
@@ -56,6 +47,8 @@ sudo apt-key add nginx_signing.key
 sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa
 //firefox beta
 sudo add-apt-repository ppa:mozillateam/firefox-next
+//touchpad-indicator
+sudo add-apt-repository ppa:atareao/atareao
 ```
 
 ## Oh-My-Zsh

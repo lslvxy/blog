@@ -46,6 +46,7 @@ js_effect:
 reading:
     markdown: Github
     entry_excerpt: 80
+    code_highlight: solarized-white
 
 # Thumbnail Settings
 thumbnail:
