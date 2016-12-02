@@ -34,6 +34,8 @@ sudo add-apt-repository ppa:git-core/ppa
 sudo add-apt-repository ppa:webupd8team/atom
 //wiz
 sudo add-apt-repository ppa:wiznote-team
+//telegram
+sudo add-apt-repository ppa:atareao/telegram
 //nodev7
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 //nodev6
