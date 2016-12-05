@@ -51,6 +51,7 @@ sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa
 sudo add-apt-repository ppa:mozillateam/firefox-next
 //touchpad-indicator
 sudo add-apt-repository ppa:atareao/atareao
+
 ```
 
 ## Oh-My-Zsh
@@ -62,7 +63,9 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 
 ```js
 //apt 安装
-sudo apt intall git subversion wget zsh wiznote node hexo-cli guake atom rar unrar p7zip-full gshutdown
+sudo apt install git subversion wget zsh wiznote node hexo-cli guake atom rar unrar p7zip-full gshutdown
+//flash
+aptitude install pepperflashplugin-nonfree browser-plugin-freshplayer-pepperflash
 //需要下载deb安装的软件：
 brackets，mysql，jd-gui，filezilla, smartsvn, smartgit,smartsynchronize,DBeaver
 ```
