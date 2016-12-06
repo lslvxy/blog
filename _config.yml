@@ -42,7 +42,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-    
+
 marked:
   gfm: false
 # Category & Tag
@@ -69,21 +69,12 @@ theme: material
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type: git
-#   repo: git@github.com:lslvxy/lslvxy.github.com.git
-#   branch: master
-#   message: update
 deploy:
-  type: ftpsync
-  host: hz213460.ftp.aliapp.com
-  user: hz213460
-  pass: shansmart5526
-  remote: /htdocs
-  port: 22
-  ignore: 
-  connections: 1
-  verbose: true
+  type: git
+  repo: git@github.com:lslvxy/lslvxy.github.com.git
+  branch: master
+  message: update
+
 
 feed:
   type: atom
@@ -97,3 +88,7 @@ sitemap:
 search:
   path: search.xml
   field: post
+
+html_minifier:
+  enable: true
+  exclude:
