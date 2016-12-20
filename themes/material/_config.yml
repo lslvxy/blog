@@ -69,7 +69,7 @@ background:
 img:
     logo: "http://img.lise.io/blog/logo2.png"
     avatar: "http://img.lise.io/blog/avatar.png"
-    daily_pic: "https://api.i-meto.com/bing?new&blur"
+    daily_pic: "https://api.i-meto.com/bing"
     sidebar_header: "/imgs/sidebar_header.png"
     footerico: "/imgs/footer/footer_ico-"
     #upyun_logo: "/img/upyun_logo.png"
@@ -121,7 +121,8 @@ comment:
     duoshuo_thread_key: id
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
     appid: 'cysI5lzGD'
-    conf: 'prod_1fe1e46ed151718b6319077cd96d24dd'    
+    conf: 'prod_1fe1e46ed151718b6319077cd96d24dd'
+    source_id: id
 
 # Search Systems
 # Available value:
