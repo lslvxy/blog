@@ -65,11 +65,11 @@ background:
         enable: false
         parameter:
 
-# Images Settings
+# Images Settings "https://api.i-meto.com/bing"
 img:
     logo: "http://img.lise.io/blog/logo2.png"
     avatar: "http://img.lise.io/blog/avatar.png"
-    daily_pic: "https://api.i-meto.com/bing"
+    daily_pic: "http://www.dujin.org/sys/bing/1366.php"
     sidebar_header: "/imgs/sidebar_header.png"
     footerico: "/imgs/footer/footer_ico-"
     #upyun_logo: "/img/upyun_logo.png"

@@ -90,5 +90,5 @@ search:
   field: post
 
 html_minifier:
-  enable: true
+  enable: false
   exclude:
