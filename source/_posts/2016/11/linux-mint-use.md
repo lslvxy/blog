@@ -56,14 +56,19 @@ sudo add-apt-repository ppa:atareao/atareao
 
 ## Oh-My-Zsh
 ```js
-$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+## Docker
+```js
+curl -fsSL https://get.docker.com/ | sh
 ```
 
 ## 必备软件
 
 ```js
 //apt 安装
-sudo apt install git subversion wget zsh wiznote node hexo-cli guake atom rar unrar p7zip-full gshutdown
+sudo apt install git subversion wget zsh wiznote hexo-cli guake atom rar unrar p7zip-full gshutdown
 //flash
 aptitude install pepperflashplugin-nonfree browser-plugin-freshplayer-pepperflash
 //需要下载deb安装的软件：
