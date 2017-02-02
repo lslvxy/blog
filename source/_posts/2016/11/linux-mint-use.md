@@ -83,6 +83,7 @@ brackets，mysql，jd-gui，filezilla, smartsvn, smartgit,smartsynchronize,DBeav
 ## Sublime Text 3输入中文办法
 
 ** 先使用[这里的方法](https://github.com/lyfeyaj/sublime-text-imfix),不行按照下面的操作 **
+
 直接下载已经编译好的 `libsublime-imfix.so`文件,[点击此处下载](http://lise-blog.oss-cn-shanghai.aliyuncs.com/libsublime-imfix.so)
 
 然后将libsublime-imfix.so拷贝到sublime_text所在文件夹
