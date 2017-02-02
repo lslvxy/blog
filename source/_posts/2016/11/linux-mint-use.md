@@ -64,6 +64,11 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 curl -fsSL https://get.docker.com/ | sh
 ```
 
+## cnpm
+```js
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
+
 ## 必备软件
 
 ```js
