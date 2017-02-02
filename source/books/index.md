@@ -17,6 +17,8 @@ id: books
 
 [Lodash 官方文档](https://lodash.com/docs/)
 
-[前端工程师手册](https://leohxj.gitbooks.io/front-end-database/content)
+[前端工程师手册](https://leohxj.gitbooks.io/front-end-database/content/)
+
+[Docker — 从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/)
 
 **欢迎留言推荐各种书籍**
