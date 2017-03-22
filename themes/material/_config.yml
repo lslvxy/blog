@@ -38,20 +38,16 @@ uiux:
 # JS Effect Switches
 js_effect:
     fade: true
-    smoothscroll: true
+    smoothscroll: false
 
 # Reading experience
-# markdown available value:
-#     Material | Github | Plain
 reading:
-    markdown: Github
     entry_excerpt: 80
-    code_highlight: solarized-white
 
 # Thumbnail Settings
 thumbnail:
     purecolor:
-    random_amount: 5
+    random_amount: 19
 
 # Background Settings
 # bing available parameter:
@@ -70,13 +66,20 @@ img:
     logo: "http://img.lise.io/blog/logo2.png"
     avatar: "http://img.lise.io/blog/avatar.png"
     daily_pic: "http://www.dujin.org/sys/bing/1366.php"
-    sidebar_header: "/imgs/sidebar_header.png"
-    footerico: "/imgs/footer/footer_ico-"
-    #upyun_logo: "/img/upyun_logo.png"
-    random_thumbnail: "/imgs/random/"
+    sidebar_header: "/img/sidebar_header.png"
+    footerico: "/img/footer/footer_ico-"
+    random_thumbnail: "/img/random/material-"
+    footer_image:
+        #upyun_logo:
+            #link: "https://www.upyun.com/"
+            #src: "/img/upyun_logo.png"
 
 # Custom Fonts
 fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
+
+# Card Elevation Level
+card_elevation: 2
+
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -92,21 +95,71 @@ sns:
     instagram:
     tumblr:
     github: https://github.com/lslvxy
+    linkedin:
+    zhihu:
+    bilibili:
+    telegram:
 
-# Sidebar User Dropdown
-dropdown:
-    Email Me:
-        link: "#"
-        icon: email
+# SNS Share Switch
+sns_share:
+    twitter: true
+    facebook: true
+    googleplus: true
+    weibo: true
+    linkedin: false
+    qq: false
+    telegram: false
 
-# Pages Menu
-pages:
-    关于我: "/about"
-    标签云: "/tags"
-    友情链接: "/links"
-    书籍收藏: "/books"
+# Sidebar Customize
+sidebar:
+    dropdown:
+        Email Me:
+            link: "#"
+            icon: email
+    homepage:
+        use: true
+        icon: home
+        divider: true
+    archives:
+        use: true
+        icon: inbox
+        divider: false
+    categories:
+        use: false
+        icon: chrome_reader_mode
+        divider: false
+    pages:
+        关于我:
+            link: "/about"
+            icon: person
+            divider: false
+        标签云:
+            link: "/tags"
+            icon: label
+            divider: false
+        友情链接:
+            link: "/links"
+            icon: link
+            divider: false
+        书籍收藏:
+            link: "/books"
+            icon: book
+            divider: false
+    article_num:
+        use: false
+        divider: false
+    footer:
+        divider: true
+        theme: true
+        support: false
+        feedback: false
+        material: false
 
+# Qrcode for redirect at other device
+qrcode: false
 
+# Support Pin posts on the top of the list
+topPost: false
 
 # ---------------------------------------------------------------
 # Integrated Services
@@ -116,7 +169,7 @@ pages:
 # Available value:
 #     duoshuo | disqus |changyan
 comment:
-    use: duoshuo
+    use: changyan
     shortname: lise
     duoshuo_thread_key: id
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
@@ -130,6 +183,11 @@ comment:
 search:
     use: local
     swiftype_key:
+
+# Analytics Systems
+analytics:
+    baidu_id:
+    google_id:
 
 # Leancloud Views
 leancloud:
