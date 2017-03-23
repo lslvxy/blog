@@ -27,4 +27,4 @@ branches:
     - master
 env:
  global:
-   - GH_REF: github.com/lslvxy/lise.github.com.git
+   - GH_REF: github.com/lslvxy/lslvxy.github.com.git
