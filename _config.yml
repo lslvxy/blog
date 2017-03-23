@@ -43,8 +43,6 @@ highlight:
   auto_detect: false
   tab_replace:
 
-marked:
-  gfm: false
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -70,15 +68,12 @@ theme: material
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:lslvxy/lslvxy.github.com.git
-  branch: master
-  message: update
+  type:
 
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'default'
-  line_number: true
+  line_number: true    # default false
 
 feed:
   type: atom

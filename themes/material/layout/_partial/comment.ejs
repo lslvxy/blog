@@ -3,8 +3,16 @@
     <%- partial('_widget/duoshuo') %>
 <% } %>
 <% if(theme.comment.use === 'changyan') { %>
-    <!-- 使用多说评论 -->
-    <%- partial('_widget/changyan') %>
+    <!-- 使用changyan评论 -->
+    <div id="changyan-comment">
+        <%- partial('_widget/changyan') %>
+    </div>
+    <style>
+        #changyan-comment{
+            background-color: #eee;
+            padding: 2pc;
+        }
+    </style>
 <% } %>
 
 
