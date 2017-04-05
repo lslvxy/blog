@@ -70,12 +70,13 @@ theme: material
 deploy:
   type:
 
-marked:
-  gfm: false
-  
+# markdown: kramdown
+# marked:
+#   gfm: false
+
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
-  theme: 'default'
+  theme: 'solarizedlight'
   line_number: true    # default false
 
 feed:

@@ -32,7 +32,7 @@ uiux:
     hyperlink_color: "#00838F"
     button_color: "#757575"
     android_chrome_color: "#0097A7"
-    nprogress_color: "#FF4081"
+    nprogress_color: "#29d"
     nprogress_buffer: "800"
 
 # JS Effect Switches
@@ -72,7 +72,7 @@ img:
     footer_image:
         #upyun_logo:
             #link: "https://www.upyun.com/"
-            #src: "/img/upyun_logo.png"
+            #src: "/img/upyun_logo.svg"
 
 # Custom Fonts
 fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
@@ -164,6 +164,14 @@ topPost: false
 # ---------------------------------------------------------------
 # Integrated Services
 # ---------------------------------------------------------------
+
+# MaterialCDN
+# When you set 'use' as true, the needed css, js, font file will have a new src.
+# The new src will have the base domain you configured in 'base'.
+
+materialcdn: 
+    use: 
+    base: 
 
 # Comment Systems
 # Available value:
