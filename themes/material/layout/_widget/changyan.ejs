@@ -1,3 +1,13 @@
+<!--<style>
+#cyReward{
+    text-align: center;
+}
+</style>
+<div id="cyReward" role="cylabs" data-use="reward"></div>-->
+<div id="cyEmoji" role="cylabs" data-use="emoji"></div>
+<script type="text/javascript" charset="utf-8" src="https://changyan.itc.cn/js/lib/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=<%= theme.comment.changyan_appid %>"></script>
+
 <!--PC和WAP自适应版-->
 <div id="SOHUCS" sid="<% if(theme.comment.changyan_thread_key_type == "id"){ %><%= page.id %><% } else { %><%= page.path %><% } %>"  ></div>
 <script type="text/javascript">

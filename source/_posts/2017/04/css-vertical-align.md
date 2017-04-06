@@ -43,14 +43,14 @@ description: 对一个元素水平垂直居中，在我们的工作中是会经�
 
 代码：
 
-```
+```js
 <div class='wrap'>
   水平垂直居中水平垂直居中
 </div>
 
 ```
 
-```
+```js
 html,body{
   margin: 0;
 }
@@ -82,14 +82,14 @@ html,body{
 
 代码：
 
-```
+```js
 <div class="wrap">
   <div class="content"></div>
 </div>
 
 ```
 
-```
+```js
 @wrapWidth : 400px;
 
 .wrap{
@@ -116,14 +116,14 @@ html,body{
 
 [DEMO链接](http://codepen.io/Dudy/pen/RPJZVw?editors=110)
 
-```
+```js
 <div class="wrap">
   <div class="content"></div>
 </div>
 
 ```
 
-```
+```js
 .wrap{
   margin-top: 20px;
   margin-left: auto;
@@ -151,14 +151,14 @@ html,body{
 
 代码：
 
-```
+```js
 <div class="wrap">
   <div class="ele"></div>
 </div>
 
 ```
 
-```
+```js
 .wrap{
   @wrapHeight : 400px;
   @contenHeight : 100px;
@@ -191,7 +191,7 @@ html,body{
 
 [DEMO链接](http://codepen.io/Dudy/pen/VLdzRv?editors=110)
 
-```
+```js
 <div class="wrap">
   <div class="ele margin">水平垂直居中水平垂直<br>居中水平垂直居中水平<br>垂直居中水平垂直居<br>中水平垂直居中</div>
 </div>
@@ -208,7 +208,7 @@ html,body{
 
 ```
 
-```
+```js
 .wrap{
   position: relative;
   width: 100%;
@@ -258,14 +258,14 @@ text-aign:center本来是不能直接作用于absolute元素的，但是没有�
 
 代码：
 
-```
+```js
 <div class="wrap">
   <div class="ele"></div>
 </div>
 
 ```
 
-```
+```js
 .wrap{
   text-align: center;
 
@@ -299,14 +299,14 @@ text-aign:center本来是不能直接作用于absolute元素的，但是没有�
 
 代码：
 
-```
+```js
 <div class="wrap">
   <div class="ele"></div>
 </div>
 
 ```
 
-```
+```js
 html,body{
   width: 100%;
   height: 100%;
@@ -360,7 +360,7 @@ html,body{
 
 代码：
 
-```
+```js
 <div class="wrap">
   <p>
     <img src="http://nec.netease.com/img/s/1.jpg" alt="" />
@@ -370,7 +370,7 @@ html,body{
 
 ```
 
-```
+```js
 html,body{
   width: 100%;
   height: 100%;
@@ -411,7 +411,7 @@ html,body{
 
 代码：
 
-```
+```js
 <div class="wrap">
   <div class="ele">
     <div class="ele-inner">居中居中居中居中居中居中<br>居中居中居中居中居中居中居中居中居<br>中居中居中居中居中居中居中居中居中居<br>中居中居中居中居中居中居中</div>
@@ -420,7 +420,7 @@ html,body{
 
 ```
 
-```
+```js
 .wrap{
   float: left;
   width: 100%;
@@ -458,7 +458,7 @@ html,body{
 
 代码：
 
-```
+```js
 <div class="wrap">
   <div class="placeholder"></div>
   <div class='content'></div>
@@ -466,7 +466,7 @@ html,body{
 
 ```
 
-```
+```js
 .wrap{
   float: left;
   width: 100%;
@@ -512,7 +512,7 @@ IFC又是个什么概念呢，你可以看看[官方文档](http://www.w3.org/TR
 
 代码：
 
-```
+```js
 <div class="wrap">
   <div class='placeholder'><!--占位元素，用来作为居中元素的参照物--></div>
   <div class="ele"></div>
@@ -520,7 +520,7 @@ IFC又是个什么概念呢，你可以看看[官方文档](http://www.w3.org/TR
 
 ```
 
-```
+```js
 .wrap{
   width: 100%;
   height: 400px;
@@ -558,14 +558,14 @@ IFC又是个什么概念呢，你可以看看[官方文档](http://www.w3.org/TR
 
 代码：
 
-```
+```js
 <div class="wrap">
   <div class="ele">居中居中居中居中居中居中<br>居中居中居中居中居中居中居中<br>居中居中居中居中居中居中居中居中<br>居中居中居中居中居中居中居中居中</div>
 </div>
 
 ```
 
-```
+```js
 .wrap{
   text-align: center;
   line-height: 400px;
@@ -596,14 +596,14 @@ IFC又是个什么概念呢，你可以看看[官方文档](http://www.w3.org/TR
 
 代码：
 
-```
+```js
 <div class="wrap">
   <div class="ele"></div>
 </div>
 
 ```
 
-```
+```js
 .wrap{
   text-align: center;
   font-size: 400px * 0.873;/*约为高度的0.873*/
@@ -631,14 +631,14 @@ IFC又是个什么概念呢，你可以看看[官方文档](http://www.w3.org/TR
 
 代码：
 
-```
+```js
 <div class="wrap">
   a
 </div>
 
 ```
 
-```
+```js
 .wrap{
   text-align: center;
   font-size: 400px * 0.873;/*约为高度的0.873*/
@@ -666,7 +666,7 @@ IFC又是个什么概念呢，你可以看看[官方文档](http://www.w3.org/TR
 
 代码：
 
-```
+```js
 <div class="wrap">
   <div class="ele">
   居中居中居中居中居中居中居中<br>
@@ -679,7 +679,7 @@ IFC又是个什么概念呢，你可以看看[官方文档](http://www.w3.org/TR
 
 ```
 
-```
+```js
 html,body{
   width: 100%;
   height: 100%;
@@ -705,7 +705,7 @@ html,body{
 
 代码：
 
-```
+```js
 <div class="wrap">
   <div class="ele">
   居中居中居中居中居中居中居中<br>
@@ -718,7 +718,7 @@ html,body{
 
 ```
 
-```
+```js
 html,body{
   width: 100%;
   height: 100%;
@@ -751,7 +751,7 @@ flexbox是个很强大的布局模块，也就三个属性就搞定居中了，�
 
 代码：
 
-```
+```js
 <div class='wrap'>
     <div class='ele'>
       <div class="ele-inner">居中居中居中居中居中居中居中居中<br>居中居中居中居中居中居中居中居中<br>居中居中居中居中居中居中居中居中居中居中</div>
@@ -760,7 +760,7 @@ flexbox是个很强大的布局模块，也就三个属性就搞定居中了，�
 
 ```
 
-```
+```js
 .wrap{
   width: 100%;
   height: 300px;
@@ -794,7 +794,7 @@ CSS3 grid layout是IE搞出来的一个布局模块，目前貌似还只有IE0�
 
 代码：
 
-```
+```js
 <button>
   <div>
     居中居中居中居中居中居中<br>
@@ -806,7 +806,7 @@ CSS3 grid layout是IE搞出来的一个布局模块，目前貌似还只有IE0�
 
 ```
 
-```
+```js
 button{
   width: 100%;
   height: 400px;

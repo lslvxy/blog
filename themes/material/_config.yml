@@ -175,10 +175,10 @@ materialcdn:
 
 # Comment Systems
 # Available value:
-#     duoshuo | disqus |changyan
+#     duoshuo | disqus | disqus_click | changyan
 comment:
-    use: changyan
-    shortname: lise
+    use: disqus_click
+    shortname: lslvxy
     duoshuo_thread_key_type: id
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
     changyan_appid: 'cysI5lzGD'
