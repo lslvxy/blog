@@ -1,8 +1,5 @@
-<% if(theme.materialcdn.use === true) { %>
-    <link rel="stylesheet" href="<%= theme.materialcdn.base %>/css/gallery.min.css">
-<%}else{%>
-    <%- css('css/gallery.min') %>
-<%}%>
+<%- css('css/gallery.min') %>
+
 
 <body>
     <!-- Wrapper -->
@@ -88,15 +85,13 @@
     </div>
 
     <!-- Scripts -->
-    <% if(theme.materialcdn.use === true) { %>
-        <script src="<%= theme.materialcdn.base %>/js/jquery.min.js"></script>
-        <script src="<%= theme.materialcdn.base %>/js/gallery/gallery.js"></script>
-        <script src="<%= theme.materialcdn.base %>/js/lazyload.min.js"></script>
-    <%}else{%>
-        <%- js('js/jquery.min') %>
-        <%- js('js/gallery/gallery') %>
-        <%- js('js/lazyload.min') %>
-    <%}%>
+    <%- js('js/jquery.min') %>
+    <%- js('js/gallery/jquery.poptrox.min') %>
+    <%- js('js/gallery/skel.min') %>
+    <%- js('js/gallery/util.min') %>
+    <%- js('js/gallery/main.min') %>
+    <%- js('js/gallery/jquery.scrollstop.min') %>
+    <%- js('js/lazyload.min') %>
 
     <script type="text/javascript">
         queue.offer(function(){
