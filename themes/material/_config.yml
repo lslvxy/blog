@@ -204,7 +204,7 @@ materialcdn:
 # Available value of "use":
 #     disqus | disqus_click | changyan | 163gentie
 comment:
-    use: disqus
+    use: disqus_click
     shortname: lslvxy # duoshuo or disqus shortname
     changyan_appid: 'cysI5lzGD'
     changyan_conf: 'prod_1fe1e46ed151718b6319077cd96d24dd'
@@ -223,7 +223,7 @@ search:
 #     baidu | google | cnzz
 analytics:
     use: google
-    site_id: 87346390
+    site_id: UA-87346390-1
 
 # Leancloud Views
 leancloud:
