@@ -17,7 +17,7 @@ description: 装饰器的流行应该感谢在Angular 2+中使用，在Angular�
 
 这已经用于很多情况，就是简单的将一个函数包装成另一个函数：
 
-```
+```js
 function doSomething(name) {
   console.log('Hello, ' + name);
 }
@@ -36,7 +36,7 @@ const wrapped = loggingDecorator(doSomething);
 
 上个例子产生新函数`wrapped`，此函数与`doSomething`做同样事情，但是他们不同在于在包装函数之前和之后输出一些语句。
 
-```
+```js
 doSomething('Graham');
 // Hello, Graham
 wrapped('Graham');
@@ -53,7 +53,7 @@ JavaScript中装饰器使用特殊的语法，使用`@`作为标识符，且放�
 
 可以放置许多装饰器在同样代码之前，然后解释器会按照顺序相应执行
 
-```
+```js
 @log()
 @immutable()
 class Example {
@@ -99,7 +99,7 @@ class Example {
 
 `@readonly`是经典的例子：
 
-```
+```js
 function readonly(target, name, descriptor) {
   descriptor.writable = false;
   return descriptor;
@@ -110,7 +110,7 @@ function readonly(target, name, descriptor) {
 
 接着用于类中属性：
 
-```
+```js
 class Example {
   a() {}
   @readonly
@@ -125,7 +125,7 @@ e.b = 2;
 
 但是我们可以做的更好，可以用别的形式代替装饰函数。例如，记录所有的输入和输出：
 
-```
+```js
 function log(target, name, descriptor) {
   const original = descriptor.value;
   if (typeof original === 'function') {
@@ -147,7 +147,7 @@ function log(target, name, descriptor) {
 
 注意我们使用了扩展运算符，会自动将所有参数转为数组。
 
-```
+```js
 class Example {
     @log
     sum(a, b) {
@@ -163,7 +163,7 @@ e.sum(1, 2);
 
 可以让装饰器获取一些参数，例如重写`log`装饰器如下：
 
-```
+```js
 function log(name) {
   return function decorator(t, n, descriptor) {
     const original = descriptor.value;
@@ -187,7 +187,7 @@ function log(name) {
 
 这与之前的`log`装饰器相同，只是利用了外部函数的`name`参数。
 
-```
+```js
 class Example {
   @log('some tag')
   sum(a, b) {
@@ -211,7 +211,7 @@ e.sum(1, 2);
 
 回到我们记录那个例子，编写一个记录构造函数参数：
 
-```
+```js
 function log(Class) {
   return (...args) => {
     console.log(args);
@@ -224,7 +224,7 @@ function log(Class) {
 
 例如：
 
-```
+```js
 @log
 class Example {
   constructor(name, age) {
@@ -241,7 +241,7 @@ console.log(e);
 
 传递参数到类装饰器与类成员一样。
 
-```
+```js
 function log(name) {
   return function decorator(Class) {
     return (...args) => {
@@ -277,7 +277,7 @@ React广泛运用了高阶组件，这让React组件成为一个函数，并且�
 
 通常，是这么使用的：
 
-```
+```js
 class MyReactComponent extends React.Component {}
 
 export default connect(mapStateToProps, mapDispatchToProps)(MyReactComponent);
@@ -285,7 +285,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(MyReactComponent);
 
 然而，可以使用装饰器代替：
 
-```
+```js
 @connect(mapStateToProps, mapDispatchToProps)
 export default class MyReactComponent extends React.Component {}
 ```
