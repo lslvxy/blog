@@ -68,7 +68,9 @@ theme: material
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+    type: git
+    repo: git@git.oschina.net:lslvxy/lslvxy.git
+    branch: master
 
 # markdown: kramdown
 # marked:
