@@ -77,11 +77,6 @@ deploy:
 # marked:
 #   gfm: false
 
-prism_plugin:
-  mode: 'preprocess'    # realtime/preprocess
-  theme: 'solarizedlight'
-  line_number: true    # default false
-
 feed:
   type: atom
   path: atom.xml
