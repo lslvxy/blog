@@ -69,9 +69,6 @@ theme: material
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   - type: git
-    repo: git@gitee.com:lslvxy/lslvxy.git
-    branch: master
-  - type: git
     repo: git@github.com:lslvxy/lslvxy.github.com.git
     branch: master
     
