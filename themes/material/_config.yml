@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "http://img.lslvxy.com/favicon.png"
-    high_res_favicon: "http://img.lslvxy.com/favicon.png"
-    apple_touch_icon: "http://img.lslvxy.com/favicon.png"
+    favicon: "//img.imsense.site/favicon.ico"
+    high_res_favicon: "//img.imsense.site/favicon.ico"
+    apple_touch_icon: "//img.imsense.site/logo.png"
     keywords: java,javascript,js,web,react,redux,extjs,jquery,maven,mysql,keep it simple,lise,svn,git,saga,antd,vue,angular,lise,lise.io
     site_verification:
         google:
@@ -70,9 +70,9 @@ background:
 
 # Images Settings
 img:
-    logo: "http://img.lslvxy.com/logo2.png"
-    avatar: "http://img.lslvxy.com/avatar.png"
-    daily_pic: "http://www.dujin.org/sys/bing/1366.php"
+    logo: "//img.imsense.site/logo.png"
+    avatar: "//img.imsense.site/avatar_cycle.png"
+    daily_pic: "//www.dujin.org/sys/bing/1366.php"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
     footer_image:
@@ -243,10 +243,10 @@ comment:
     changyan_conf:
     changyan_thread_key_type: path
     livere_data_uid:
-    gitment_repo:   # git repo of the hexo
-    gitment_owner:  # git repo's owner
-    gitment_client_id:  # github app client id 
-    gitment_client_secret :  # github app client secret 
+    gitment_repo:  https://github.com/lslvxy/blog-comment.git # git repo of the hexo
+    gitment_owner:  lslvxy # git repo's owner
+    gitment_client_id: 92763e0e1cbb909b0098  # github app client id 
+    gitment_client_secret : 720c3470f6568c2bcf724cac334f1e72694d5c38  # github app client secret 
     valine_leancloud_appId:  # leancloud application app id
     valine_leancloud_appKey:  # leancloud application app key
     valine_notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
