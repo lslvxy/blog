@@ -1,0 +1,4 @@
+# Redirect domain aliases to primary domain
+https://lise.io/* https://imsense.site/:splat 301!
+https://seitter.site/* https://imsense.site/:splat 301!
+https://lslvxy.com/* https://imsense.site/:splat 301!
