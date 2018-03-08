@@ -13,11 +13,11 @@ script:
   - hexo g
 
 after_script:
+  - cp ./source/_redirects ./public/
   - cd ./public
   - git init
   - git config user.name "lise"
   - git config user.email "lslvxy@gmail.com"
-  - cp ./source/_redirects ./public
   - git add .
   - git commit -m "travis-ci build"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
