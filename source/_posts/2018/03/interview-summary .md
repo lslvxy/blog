@@ -45,7 +45,7 @@ description: 记录个人2018年初的面试经验并总结，以及规划下这
 
 ## 常见的面试题
 
-+ JS 部分：闭包、this、事件、原型、继承
++ JS 部分：闭包、this、事件、原型、继承、Promise
 + CSS 部分：@import和link、less和sass、Flex布局、动画
 + 框架部分： Redux流程和原理、虚拟DOM原理、React和VUE对比、ES6
 + 其他：H5属性、浏览器加载过程、ajax、get和post、系统优化和提速、打包工具、模块化、组件化、浏览器缓存、storage和cookies
