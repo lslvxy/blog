@@ -274,7 +274,7 @@ search:
 analytics:
     google_site_id: UA-87346390-1
     baidu_site_id:
-    cnzz_site_id:
+    cnzz_site_id: 1000133158
 
 # Leancloud Views
 leancloud:
