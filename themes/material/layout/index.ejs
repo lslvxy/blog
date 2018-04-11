@@ -37,16 +37,18 @@
         <% } %>
     <% }); %>
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-format="fluid"
-         data-ad-layout-key="-hm+2+2m-8v+8c"
-         data-ad-client="ca-pub-1200197652834931"
-         data-ad-slot="5946644952"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    <div class="post_entry-module mdl-card <% if(theme.card_elevation) { %><%= 'mdl-shadow--' + theme.card_elevation + 'dp' %><% } %> mdl-cell mdl-cell--12-col fade out">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-format="fluid"
+             data-ad-layout-key="-hm+2+2m-8v+8c"
+             data-ad-client="ca-pub-1200197652834931"
+             data-ad-slot="5946644952"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
 
     <% if (page.total > 1) { %>
     <!-- Index nav -->
