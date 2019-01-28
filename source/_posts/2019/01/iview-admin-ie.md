@@ -23,12 +23,12 @@ description: iview-admin 2.x 兼容IE11的方法
 
 `npm install --save @babel/polyfill`
 
-3.main.js代码最前面加入
+3. main.js代码最前面加入
 
 `import '@babel/polyfill'`
 
 
-4.main.js相关的语言包全部删除
+4. main.js相关的语言包全部删除
 
 ```
 1.main.js中的以下三部分注释掉：
@@ -53,6 +53,7 @@ render: h => h(App)
 ```
 
 5. 修改配置文件
+
 ```
 编辑.babelrc
 {
