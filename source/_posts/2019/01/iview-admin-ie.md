@@ -2,7 +2,7 @@
 title: iview-admin 2.x 兼容IE11的方法
 date: 2019-01-28 23:30
 comments: on
-category: Other
+category: Web
 tags: [Web ,Vue , ]
 id: 201901282330
 description: iview-admin 2.x 兼容IE11的方法
