@@ -723,9 +723,9 @@ needmoreshare2:
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
 
 # Google Analytics
-#google_analytics:
-#  tracking_id:
-#  localhost_ignored: true
+google_analytics:
+ tracking_id: UA-87346390-1
+ localhost_ignored: true
 
 # CNZZ count
 #cnzz_siteid:
