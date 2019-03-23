@@ -608,8 +608,8 @@ disqusjs:
   # For example:
   # api: https://disqus.skk.moe/disqus/
   api:
-  apikey: # register new application from https://disqus.com/api/applications/
-  shortname: # See: https://disqus.com/admin/settings/general/
+  apikey: otGycdtxzsPsE7TXByec5ztKzGeN4MSgZPSPdK8SxyNF4bCDwcJzwUWvEJMSNqB0 # register new application from https://disqus.com/api/applications/
+  shortname: lslvxy # See: https://disqus.com/admin/settings/general/
 
 # Changyan
 changyan:
@@ -621,7 +621,7 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # More info available at https://valine.js.org
 valine:
-  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
   appid:  mcQ4n2h4umfF1b7jHQjdAiwq-gzGzoHsz # your leancloud application appid
   appkey: FpeCM2HKlNsekhqiuxSe7YyO # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
