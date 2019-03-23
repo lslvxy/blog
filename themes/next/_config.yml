@@ -592,7 +592,7 @@ quicklink:
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname: lslvxy
   count: true
   lazyload: false
