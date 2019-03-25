@@ -592,7 +592,7 @@ quicklink:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: lslvxy
   count: true
   lazyload: false
@@ -601,7 +601,7 @@ disqus:
 # Alternative Disqus - Render comment component using Disqus API
 # Demo: https://suka.js.org/DisqusJS/
 disqusjs:
-  enable: true
+  enable: false
   # API Endpoint of Disqus API (https://disqus.com/api/)
   # leave api empty if you are able to connect to Disqus API
   # otherwise you need a reverse proxy for Disqus API
@@ -657,12 +657,12 @@ gitment:
 # Gitalk
 # Demo: https://gitalk.github.io
 gitalk:
-  enable: false
-  github_id:  # Github repo owner
-  repo:  # Repository name to store issues
-  client_id:  # Github Application Client ID
-  client_secret:  # Github Application Client Secret
-  admin_user:  # GitHub repo owner and collaborators, only these guys can initialize github issues
+  enable: true
+  github_id:  lslvxy # Github repo owner
+  repo:  blog-comment # Repository name to store issues
+  client_id: 79a8dca2594c488ac0bb # Github Application Client ID
+  client_secret: 35f18f99f56c35b1ff395b03f1234593690b83e6 # Github Application Client Secret
+  admin_user: lslvxy # GitHub repo owner and collaborators, only these guys can initialize github issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
