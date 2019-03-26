@@ -112,7 +112,7 @@ creative_commons:
 
 # Follow me on GitHub banner in right-top corner.
 github_banner:
-  enable: true
+  enable: false
   permalink: https://github.com/lslvxy
   title: Follow me on GitHub
 
