@@ -13,8 +13,8 @@ id: about
 我的友情链接地址：
 
 ```
-Keep It Simple:
-    link: http://lise.io
-    avatar: http://img.lise.io/blog/avatar.png
+橙子&柚子:
+    link: https://leense.site
+    avatar: http://img.leense.site/avatar.png
     descr: 简单自我,充实生命.
 ```
