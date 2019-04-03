@@ -63,7 +63,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-## material
+
+# theme: material
 theme: next
 
 # Deployment
@@ -72,7 +73,6 @@ deploy:
   - type: git
     repo: git@github.com:lslvxy/lslvxy.github.com.git
     branch: master
-    
 
 # markdown: kramdown
 # marked:
@@ -85,7 +85,7 @@ feed:
   hub:
 
 sitemap:
-    path: sitemap.xml
+  path: sitemap.xml
 
 search:
   path: search.xml

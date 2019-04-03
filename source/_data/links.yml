@@ -1,50 +1,55 @@
 我的博客园:
-    link: https://cnblogs.com/lslvxy
-    avatar: //img.imsense.site/links/lise.png
-    descr: 还是我的博客
-Viosey‘s Blog:
-    link: https://blog.viosey.com
-    avatar: //img.imsense.site/links/viosey.jpg
-    descr: 一生想做一只自由 Geek
-博客大全:
-    link: http://daohang.lusongsong.com/
-    avatar: //img.imsense.site/links/lusongsong.png
-    descr: 博客大全
+  title: 我的博客园
+  link: https://cnblogs.com/lslvxy
+  avatar: //img.leense.site/links/lise.png
+  descr: 还是我的博客
 千寻啊千寻:
-    link: http://qianxunclub.com
-    avatar: //img.imsense.site/links/qianxunclub.jpg
-    descr: 千寻啊千寻
+  title: 千寻啊千寻
+  link: http://qianxunclub.com
+  avatar: //img.leense.site/links/qianxunclub.jpg
+  descr: 千寻啊千寻
 静觅:
-    link: https://cuiqingcai.com/
-    avatar: //img.imsense.site/links/cuiqingcai.jpg
-    descr: 崔庆才的博客
+  title: 静觅
+  link: https://cuiqingcai.com/
+  avatar: //img.leense.site/links/cuiqingcai.jpg
+  descr: 崔庆才的博客
 刘毅:
-    link: https://www.61mon.com/
-    avatar: //img.imsense.site/links/liuyi.jpg
-    descr: 刘毅的博客
+  title: 刘毅
+  link: https://www.61mon.com/
+  avatar: //img.leense.site/links/liuyi.jpg
+  descr: 刘毅的博客
 欧尼酱:
-    link: https://www.nothamor.cn
-    avatar: //img.imsense.site/links/ounijiang.jpg
-    descr: 欧尼酱的博客
+  title: 欧尼酱
+  link: https://www.nothamor.cn
+  avatar: //img.leense.site/links/ounijiang.jpg
+  descr: 欧尼酱的博客
 c0sMx'Blog:
-    link: https://www.c0smx.com
-    avatar: //img.imsense.site/links/c0sMx.jpg
-    descr: c0sMx'Blog
+  title: c0sMx'Blog
+  link: https://www.c0smx.com
+  avatar: //img.leense.site/links/c0sMx.jpg
+  descr: c0sMx'Blog
 Netrvin:
-    link: https://moe.im
-    avatar: //img.imsense.site/links/netrvin.jpg
-    descr: Netrvin | 934131's Blog
+  title: Netrvin
+  link: https://moe.im
+  avatar: //img.leense.site/links/netrvin.jpg
+  descr: Netrvin | 934131's Blog
 Hran:
-    link: https://hran.me/
-    avatar: //img.imsense.site/links/hran.jpg
-    descr: Hran's Blog
+  title: Hran
+  link: https://hran.me/
+  avatar: //img.leense.site/links/hran.jpg
+  descr: Hran's Blog
 徐缓归:
-    link: https://www.xuhuangui.cn/
-    avatar: //img.imsense.site/links/xuhuangui.jpg
-    descr: 做一个温柔的人
+  title: 徐缓归
+  link: https://www.xuhuangui.cn/
+  avatar: //img.leense.site/links/xuhuangui.jpg
+  descr: 做一个温柔的人
 林辉的Blog:
-    link: http://linhui.site/
-    avatar: //img.imsense.site/links/linhui.png
-    descr: 开开心心的做喜欢的事
-
-
+  title: 林辉的Blog
+  link: http://linhui.site/
+  avatar: //img.leense.site/links/linhui.png
+  descr: 开开心心的做喜欢的事
+深夜猿:
+  title: 深夜猿
+  link: https://chenguoji.com/
+  avatar: //img.leense.site/links/linhui.png
+  descr: 人生如戏，全靠颜值

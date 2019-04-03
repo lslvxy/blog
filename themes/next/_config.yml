@@ -20,18 +20,17 @@ cache:
 # outside theme directory in root `source/_data`, set
 # `styles: source/_data/styles.styl`
 #custom_file_path:
-  # Default paths: layout/_custom/*
-  #head: source/_data/head.swig
-  #header: source/_data/header.swig
-  #sidebar: source/_data/sidebar.swig
+# Default paths: layout/_custom/*
+#head: source/_data/head.swig
+#header: source/_data/header.swig
+#sidebar: source/_data/sidebar.swig
 
-  # Default path: source/css/_variables/custom.styl
-  #variables: source/_data/variables.styl
-  # Default path: source/css/_mixins/custom.styl
-  #mixins: source/_data/mixins.styl
-  # Default path: source/css/_custom/custom.styl
-  #styles: source/_data/styles.styl
-
+# Default path: source/css/_variables/custom.styl
+#variables: source/_data/variables.styl
+# Default path: source/css/_mixins/custom.styl
+#mixins: source/_data/mixins.styl
+# Default path: source/css/_custom/custom.styl
+#styles: source/_data/styles.styl
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -116,7 +115,6 @@ github_banner:
   permalink: https://github.com/lslvxy
   title: Follow me on GitHub
 
-
 # ---------------------------------------------------------------
 # SEO Settings
 # ---------------------------------------------------------------
@@ -158,7 +156,6 @@ exturl: false
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: false
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -171,19 +168,19 @@ baidu_push: false
 # External url should start with http:// or https://
 menu:
   home: / || home
-  about: /about/ || user
+  archives: /archives/ || archive
   # tags: /tags/ || tags
   # categories: /categories/ || th
-  archives: /archives/ || archive
+  links: /links/ || link
+  about: /about/ || user
   #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
+  # sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
   icons: true
   badges: false
-
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -194,7 +191,6 @@ menu_settings:
 # scheme: Mist
 scheme: Pisces
 # scheme: Gemini
-
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -402,7 +398,6 @@ post_edit:
   url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source.
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit.
 
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -444,7 +439,6 @@ tagcloud:
   start: "#ccc" # start color (hex, rgba, hsla or color keywords)
   end: "#111" # end color (hex, rgba, hsla or color keywords)
   amount: 200 # amount of tags, chage it if you have more than 200 tags
-
 
 # ---------------------------------------------------------------
 # Font Settings. Introduced in NexT v5.0.1.
@@ -500,7 +494,6 @@ font:
     family:
     size:
 
-
 # ---------------------------------------------------------------
 # Third Party Services Settings
 # See: https://theme-next.org/docs/third-party-services/
@@ -526,7 +519,6 @@ math:
   mathjax:
     cdn: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
-
     # See: https://mhchem.github.io/MathJax-mhchem/
     #mhchem: //cdn.jsdelivr.net/npm/mathjax-mhchem@3
     #mhchem: //cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.0
@@ -622,7 +614,7 @@ changyan:
 # More info available at https://valine.js.org
 valine:
   enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  mcQ4n2h4umfF1b7jHQjdAiwq-gzGzoHsz # your leancloud application appid
+  appid: mcQ4n2h4umfF1b7jHQjdAiwq-gzGzoHsz # your leancloud application appid
   appkey: FpeCM2HKlNsekhqiuxSe7YyO # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
@@ -658,8 +650,8 @@ gitment:
 # Demo: https://gitalk.github.io
 gitalk:
   enable: false
-  github_id:  lslvxy # Github repo owner
-  repo:  blog-comment # Repository name to store issues
+  github_id: lslvxy # Github repo owner
+  repo: blog-comment # Repository name to store issues
   client_id: 79a8dca2594c488ac0bb # Github Application Client ID
   client_secret: 35f18f99f56c35b1ff395b03f1234593690b83e6 # Github Application Client Secret
   admin_user: lslvxy # GitHub repo owner and collaborators, only these guys can initialize github issues
@@ -724,8 +716,8 @@ needmoreshare2:
 
 # Google Analytics
 google_analytics:
- tracking_id: UA-87346390-1
- localhost_ignored: true
+  tracking_id: UA-87346390-1
+  localhost_ignored: true
 
 # CNZZ count
 #cnzz_siteid:
@@ -738,36 +730,36 @@ google_analytics:
 # ---------------------------------------------------------------
 # Facebook SDK Support
 facebook_sdk:
-  enable:       false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  enable: false
+  app_id: #<app_id>
+  fb_admin: #<user_id>
+  like_button: #true
+  webmaster: #true
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable:       false
-  num_of_posts: 10    # min posts num is 1
-  width:        100%  # default width is 550px
-  scheme:       light # default scheme is light (light or dark)
+  enable: false
+  num_of_posts: 10 # min posts num is 1
+  width: 100% # default width is 550px
+  scheme: light # default scheme is light (light or dark)
 
 # VKontakte API Support
 # To get your AppID visit https://vk.com/editapp?act=create
 vkontakte_api:
-  enable:       false
-  app_id:       #<app_id>
-  like:         true
-  comments:     true
+  enable: false
+  app_id: #<app_id>
+  like: true
+  comments: true
   num_of_posts: 10
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     #<app_id>
-  color:  fc6423
+  id: #<app_id>
+  color: fc6423
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
@@ -928,7 +920,6 @@ mermaid:
   cdn: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
   #cdn: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js
 
-
 # ---------------------------------------------------------------
 # Animation Settings
 # ---------------------------------------------------------------
@@ -1004,7 +995,6 @@ canvas_ribbon:
   size: 300
   alpha: 0.6
   zIndex: -1
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
