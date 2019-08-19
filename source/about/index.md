@@ -13,8 +13,8 @@ id: about
 我的友情链接地址：
 
 ```
-橙子&柚子:
+柚子橙:
     link: https://leense.site
-    avatar: http://img.leense.site/avatar.png
-    descr: 简单自我,充实生命.
+    avatar: https://img.leense.site/avatar.png
+    descr: 诗意的橙子,内涵的柚子.
 ```
