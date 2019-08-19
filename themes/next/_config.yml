@@ -595,12 +595,12 @@ comments:
   # Available values: changyan | disqus | disqusjs | facebook_comments_plugin | gitalk | livere | valine | vkontakte
   active: disqus | gitalk
   # Setting `true` means remembering the comment system selected by the visitor.
-  storage: true
+  storage: false
   # Modify icons and texts for any style, here are some examples.
   nav:
-    #disqus: disqus
+    disqus: Disqus
     #facebook_comments_plugin: <i class="fa fa-facebook-official" aria-hidden="true"></i> facebook
-    #gitalk: Load Gitalk
+    gitalk: Gitalk
 
 # Disqus
 disqus:
