@@ -3,7 +3,7 @@ date: 2013-12-02 12:00
 comments: on
 category: ExtJs
 tags: [extjs, grid,分组,排序]
-id: 2013012021200
+id: 201312021200
 
 ---
 
@@ -11,7 +11,7 @@ ExtJs 中对 gridpanel 分组后的组名进行排序，GroupingGrid 分组后�
 
 <!-- more -->
 
-![group](//img.leense.site/2013/12/2013012021200-1.jpg)
+![group](//img.leense.site/post/2013/12/201312021200-1.jpg)
 
 ```js
 /**
