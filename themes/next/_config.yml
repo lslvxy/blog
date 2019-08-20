@@ -534,7 +534,7 @@ math:
 # Easily enable fast Ajax navigation on your website.
 # Dependencies: https://github.com/theme-next/theme-next-pjax
 # For moreinformation: https://github.com/MoOx/pjax
-pjax: false
+pjax: true
 
 # Fancybox. There is support for old version 2 and new version 3.
 # Choose only one variant, do not need to install both.
@@ -552,18 +552,18 @@ mediumzoom: false
 # Vanilla JavaScript plugin for lazyloading images.
 # Dependencies: https://github.com/theme-next/theme-next-lazyload
 # For more information: https://github.com/ApoorvSaxena/lozad.js
-lazyload: false
+lazyload: true
 
 # Pangu Support
 # Dependencies: https://github.com/theme-next/theme-next-pangu
 # For more information: https://github.com/vinta/pangu.js
-pangu: false
+pangu: true
 
 # Quicklink Support
 # Dependencies: https://github.com/theme-next/theme-next-quicklink
 # For more information: https://github.com/GoogleChromeLabs/quicklink
 quicklink:
-  enable: false
+  enable: true
 
   # Quicklink (quicklink.umd.js script) is loaded on demand.
   # Add `quicklink: true` in Front-matter of the page or post you need.
@@ -715,7 +715,7 @@ add_this_id:
 # ---------------------------------------------------------------
 
 # Baidu Analytics
-baidu_analytics: # <app_id>
+baidu_analytics: d39fe343863a983d41230fc6cfad4d02 # <app_id>
 
 # Growingio Analytics
 # Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
@@ -727,7 +727,7 @@ google_analytics:
   localhost_ignored: true
 
 # CNZZ count
-cnzz_siteid:
+cnzz_siteid: 1277944008
 
 # Application Insights
 # See: https://azure.microsoft.com/en-us/services/application-insights
@@ -766,7 +766,7 @@ busuanzi_count:
   post_views_icon: eye
 
 # Tencent analytics
-tencent_analytics: # <app_id>
+tencent_analytics: 66465019 # <app_id>
 
 # Tencent MTA
 tencent_mta: # <app_id>
