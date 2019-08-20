@@ -1,15 +1,17 @@
-title: ExtJs中gridpanel分组后组名排序
+title: ExtJs 中 gridpanel 分组后组名排序
 date: 2013-12-02 12:00
 comments: on
 category: ExtJs
 tags: [extjs, grid,分组,排序]
 id: 2013012021200
+
 ---
 
-ExtJs中对gridpanel分组后的组名进行排序，GroupingGrid分组后是不能对组名再进行排序的，本文介绍了相关方法。
-<!-- more -->
-![group](http://img16.poco.cn/mypoco/myphoto/20150120/14/17430090220150120140119078.jpg?500x100_120)
+ExtJs 中对 gridpanel 分组后的组名进行排序，GroupingGrid 分组后是不能对组名再进行排序的，本文介绍了相关方法。
 
+<!-- more -->
+
+![group](//img.leense.site/2013/12/2013012021200-1.jpg)
 
 ```js
 /**
@@ -77,26 +79,25 @@ groupBy : function(field, forceRegroup, direction) {
 /*************************调用***************************/
 // 消息列表数据源
 var messageStore = new DescGroupingStore({
-    proxy : new Ext.data.HttpProxy({
-        url : "listMessGrid.action"
-    }),
-    reader : myReader,
-    groupDir : 'DESC',
-    groupField : 'status',
-    sortInfo : {
-        field : 'id',
-        direction : "DESC"
-    }
+  proxy: new Ext.data.HttpProxy({
+    url: "listMessGrid.action"
+  }),
+  reader: myReader,
+  groupDir: "DESC",
+  groupField: "status",
+  sortInfo: {
+    field: "id",
+    direction: "DESC"
+  }
 });
 messageStore.load();
-
 ```
 
 ```js
 /*****************在gridpanel中添加如下属性*************************************/
-view : new Ext.grid.GroupingView({
-    showGroupName : false,
-    groupTextTpl : '{gvalue}:{text}',
-    showGroupsText : "ddd"
-})
+view: new Ext.grid.GroupingView({
+  showGroupName: false,
+  groupTextTpl: "{gvalue}:{text}",
+  showGroupsText: "ddd"
+});
 ```
